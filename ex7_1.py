@@ -10,5 +10,11 @@ except:
     print("File cannot be opened:", fname)
     quit()
 
+/*
 content = fh.read().strip()
 print(content.upper())
+*/
+
+for line in fh:
+	content = line.rstrip()
+	print(content.upper())
