@@ -19,3 +19,7 @@ for line in hand:
 
 sum = sum(numList)
 print('Soma de', n, 'numeros:', sum)
+
+
+# Mesma resolução, em uma linha
+# print( sum( [ ****** *** * in **********('[0-9]+',**************************.read()) ] ) )
