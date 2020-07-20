@@ -1,7 +1,7 @@
 Grupo: 	Michelle Wingter
 	João Reis
 
-Sobre o trabalho do curso
+### Sobre o trabalho do curso:
 # Calculo Numerico - SME0104 - 2020
 O metodo de avaliacão do curso sera feito atraves de um relatorio desenvolvido
 na plataforma Google Colab (https://colab.research.google.com/). Os
@@ -49,3 +49,8 @@ Science Applications with Numpy, SciPy and Matplotlib. Apress.
 Biology and Epidemiology. Springer.
 5) Langville, A. N. and Meyer, C. D. (2012). Google's PageRank and Beyond:
 The Science of Search Engine Rankings. Princeton University Press.
+
+
+## Métodos Implementados:
+- Solucão de Sistemas Lineares: metodos diretos e metodos iterativos (Comparação 
+do desempenho dos metodos para matrizes de dimensão arbitrariamente grandes).
