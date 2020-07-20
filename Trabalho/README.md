@@ -1,5 +1,4 @@
-Grupo: 	Michelle Wingter
-	João Reis
+Grupo: 	Michelle Wingter | João Reis
 
 ### Sobre o trabalho do curso:
 # Calculo Numerico - SME0104 - 2020
