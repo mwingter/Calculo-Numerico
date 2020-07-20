@@ -1,4 +1,6 @@
-Sobre a avaliacão do curso
+Grupo: 	Michelle Wingter
+	João Reis
+Sobre o trabalho do curso
 # Calculo Numerico - SME0104 - 2020
 O metodo de avaliacão do curso sera feito atraves de um relatorio desenvolvido
 na plataforma Google Colab (https://colab.research.google.com/). Os
@@ -12,7 +14,7 @@ alunos ou duplas distintas e nem a copia do material do curso ou de conteudos
 da internet!!! As listas de exercicios e o trabalho disponibilizados poderão servir
 como exemplos de testes dos codigos implementados ou aplicações de cada tema.
 
-###Entre parênteses, após cada tema, estão listadas algumas possiveis aplicações.
+### Entre parênteses, após cada tema, estão listadas algumas possiveis aplicações.
 
 - Solucão de Sistemas Lineares: metodos diretos e metodos iterativos (Comparação 
 do desempenho dos metodos para matrizes de dimensão arbitrariamente grandes).
@@ -35,7 +37,7 @@ online.
 A data de entrega deste relatorio sera confrmada posteriormente mas o
 prazo provavel sera de 10 dias apos a ultima aula virtual do curso.
 
-####Referências
+#### Referências
 1) Heath, M. T. (2018). Scientic computing: an introductory survey (Vol. 80).
 SIAM.
 2) Kiusalaas, J. (2013). Numerical methods in engineering with Python 3.
