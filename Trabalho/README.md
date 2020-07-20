@@ -51,5 +51,6 @@ The Science of Search Engine Rankings. Princeton University Press.
 
 
 ## Métodos Implementados:
-- Solucão de Sistemas Lineares: metodos diretos e metodos iterativos (Comparação 
-do desempenho dos metodos para matrizes de dimensão arbitrariamente grandes).
+- Solucão de Sistemas Lineares:(Comparação do desempenho dos metodos para matrizes de dimensão arbitrariamente grandes).
+	- Metodos diretos: Eliminação de Gauss
+	- Metodos iterativos: Gauss-Jacobi e Gauss-Seidel
