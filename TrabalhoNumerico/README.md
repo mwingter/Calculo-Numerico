@@ -1,5 +1,6 @@
 Grupo: 	Michelle Wingter
 	João Reis
+
 Sobre o trabalho do curso
 # Calculo Numerico - SME0104 - 2020
 O metodo de avaliacão do curso sera feito atraves de um relatorio desenvolvido
