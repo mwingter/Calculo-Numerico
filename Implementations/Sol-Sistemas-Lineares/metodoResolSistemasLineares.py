@@ -31,9 +31,8 @@ def retro_substitution(A, b, n): #Fase 2
     return x
 
 
-def gauss ():
+def gauss (A,b,n):
     C, blinha = gauss_elimination(A,b,n)
     x = retro_substitution(C,blinha,n)
     print("Resposta do sistema linear:", x)
 
-gauss()
