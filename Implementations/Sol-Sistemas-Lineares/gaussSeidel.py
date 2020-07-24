@@ -61,21 +61,21 @@ def iteration(A, b, xi, x, n): ##iteração k, em que se calcula os valores do a
         sum1 = 0 
         sum2 = 0
         for j in range(0, i):
-            print("     sum1 = ", sum1, "+", A[i][j], "*", x[j])
+            #print("     sum1 = ", sum1, "+", A[i][j], "*", x[j])
             sum1 = sum1 + A[i][j] * x[j]
         for j in range (i+1, n):
-            print("     sum2 = ", sum2, "+", A[i][j], "*", xi[j])
+            #print("     sum2 = ", sum2, "+", A[i][j], "*", xi[j])
             sum2 = sum2 + A[i][j] * xi[j]
-        print("sum 1 = ", sum1, "sum 2 =", sum2)
+        #print("sum 1 = ", sum1, "sum 2 =", sum2)
         x[i] = (1/A[i][i]) * (b[i] - sum1 - sum2)
-        print("x[", i, "] = ( 1/", A[i][i], ") * (", b[i], "-", sum2, "-", sum1, ")")
-        print("x[", i, "] = ", x[i])
+        #print("x[", i, "] = ( 1/", A[i][i], ") * (", b[i], "-", sum2, "-", sum1, ")")
+        #print("x[", i, "] = ", x[i])
 
 def stopCriteria(x, xi, n, e): #Critério de parada. Se retornar true, o critério foi satisfeito; se false, não foi.
     max = -99999
     for i in range(n):
         tot = abs(x[i] - xi[i])
-        print("tot = x[", i, "] - xi[", i, "] =", x[i], "-", xi[i], "=", tot)
+        #print("tot = x[", i, "] - xi[", i, "] =", x[i], "-", xi[i], "=", tot)
         if(max < tot):
             max = tot
     
@@ -87,7 +87,7 @@ def stopCriteria(x, xi, n, e): #Critério de parada. Se retornar true, o critér
 def gauss_seidel(A, b, xi, x, e, n):
     k = 1 #contador de iterações
     while(k < 25): # limite máximo de iterações
-        print("---ITERAÇÃO ", k)
+        #print("---ITERAÇÃO ", k)
         iteration(A, b, xi, x, n)
 
         if(stopCriteria(x, xi, n, e)):
