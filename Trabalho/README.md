@@ -51,6 +51,13 @@ The Science of Search Engine Rankings. Princeton University Press.
 
 
 ## Métodos Implementados:
-- Solucão de Sistemas Lineares:(Comparação do desempenho dos metodos para matrizes de dimensão arbitrariamente grandes).
+
+1- Solucão de Sistemas Lineares:(Comparação do desempenho dos metodos para matrizes de dimensão arbitrariamente grandes).
 	- Metodos diretos: Eliminação de Gauss
 	- Metodos iterativos: Gauss-Jacobi e Gauss-Seidel
+
+2- Métodos de Autovalores e Autovetores (Decomposição SVD e compressão de imagem, Google pagerank)
+
+3- Solução de Equações e Sistemas Não-Lineares (Aplicações do método de Newton para sistemas)
+
+4- Método dos Mínimos Quadrados (Análise de dados reais como por exemplo dados relativos ao número de mortos/casos pela Covid-19 por dia em diversos paises)
