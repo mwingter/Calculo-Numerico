@@ -27,5 +27,5 @@ def min_quadrados(f, M, n):
     # para encontrar os coeficientes da solução
     return gaussElimination.gauss(A, b, n)
 
-print(min_quadrados(f, M, n))
+print("Resposta dos mínimos quadrados:", min_quadrados(f, M, n))
 
