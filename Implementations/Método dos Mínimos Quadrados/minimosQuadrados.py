@@ -21,10 +21,16 @@ n = 2 #dimensão da matriz simétrica A
 '''
 
 #ex2
-
+'''
 f = np.array([1.105,1.221,1.348,1.491,1.64,1.822,2.013,2.22,2.459]) #vetor de valores f
 M = np.array([[0.01,0.04,0.09,0.16,0.25,0.36,0.49,0.64,0.81],[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9],[1,1,1,1,1,1,1,1,1]]) #matriz com os n vetores hk
 n = 3 #dimensão da matriz simétrica A
+'''
+
+#ex3 - natalidade brasil
+f = np.array([43.5,44.0,37.7,31.87,23.72,21.06]) #vetor de valores f
+M = np.array([[0,1,2,3,4,5],[1,1,1,1,1,1]]) #matriz com os n vetores hk
+n = 2 #dimensão da matriz simétrica A
 
 
 def min_quadrados(f, M, n):
@@ -44,6 +50,7 @@ def min_quadrados(f, M, n):
     # utilizando o método de resolução de sistemas lineares  
     # para encontrar os coeficientes da solução
     return gaussElimination.gauss(A, b, n)
+
 
 print("Resposta dos mínimos quadrados:", min_quadrados(f, M, n))
 
@@ -65,11 +72,13 @@ print("Polinomio: \n", polinomio)
 
 coef = min_quadrados(f,M,n)
 
-p = lambda x: coef[2] + coef[1]*x + coef[0]*x**2;
-x = np.linspace(0, 1, num=41, endpoint=True)
+#p = lambda x: coef[2] + coef[1]*x + coef[0]*x**2
+p = lambda x: coef[1] + coef[0]*x
+
+x = np.linspace(0, 10, num=6, endpoint=True)
 # Vamos plotar os resultados
 plt.figure(figsize=(10,6),facecolor='white')
-plt.plot(x,np.exp(x),label = 'f(x)',linewidth = 3)
+#plt.plot(x,np.exp(x),label = 'f(x)',linewidth = 3)
 plt.plot(x,p(x),label = 'p(x)',linewidth = 2,marker='>')
 plt.xlabel('x',fontsize='large') 
 plt.ylabel('y',fontsize='large') 
