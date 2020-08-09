@@ -75,10 +75,10 @@ coef = min_quadrados(f,M,n)
 #p = lambda x: coef[2] + coef[1]*x + coef[0]*x**2
 p = lambda x: coef[1] + coef[0]*x
 
-x = np.linspace(0, 10, num=6, endpoint=True)
+x = np.linspace(0, 5, num=6, endpoint=True)
 # Vamos plotar os resultados
-plt.figure(figsize=(10,6),facecolor='white')
-#plt.plot(x,np.exp(x),label = 'f(x)',linewidth = 3)
+plt.figure(figsize=(3,6),facecolor='white')
+plt.plot(x,f,'ro',label = 'f(x)',linewidth = 3)
 plt.plot(x,p(x),label = 'p(x)',linewidth = 2,marker='>')
 plt.xlabel('x',fontsize='large') 
 plt.ylabel('y',fontsize='large') 
